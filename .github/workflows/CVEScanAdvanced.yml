@@ -9,6 +9,7 @@ on:
 jobs:
   build-image:
     name: Build Images
+    environment: GHA
     runs-on: ubuntu-latest
 
 #NEW: (START) ##########################################################
